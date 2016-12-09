@@ -1,0 +1,451 @@
+.mastfoot
+{
+    background-color: black;
+    position: static;
+    bottom: -5px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+}
+
+#p404
+{
+    text-align: center;
+}
+
+.thumbnail
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.form-control
+{
+    background-color: #faffbd;
+}
+
+.panel-body
+{
+    text-align: justify;
+}
+.pagClass
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#additionalPages
+{
+    text-align: center;
+    position: absolute;
+    height: auto;
+    top: -10px;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    box-shadow: 0 0 10px dodgerblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s linear;
+}
+
+#anotherPages:hover #additionalPages
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+#article
+{
+    text-align: justify;
+}
+
+#articleHead
+{
+    width: 100%;
+    text-align: center;
+}
+
+#articleHead img
+{
+    max-width: 100%;
+    box-shadow: 0 0 15px black;
+}
+
+#images
+{
+    text-align: center;
+}
+
+#images img
+{
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+#tags
+{
+    text-align: justify;
+    width: 100%;
+}
+
+#tags a
+{
+    margin-right: 20px;
+}
+
+.starter-template
+{
+    margin-bottom: -50px;
+    margin-top: -20px;
+}
+
+.hello
+{
+    padding-right: 20px;
+    display: inline-block;
+    color: beige;
+}
+
+#pageContent .panel .panel-heading span
+{
+    color: black;
+    position: absolute;
+    margin-top: -20px;
+    right: 220px;
+}
+
+#pageContent .panel .panel-heading button
+{
+    position: relative;
+    float: right;
+    width: 25px;
+    height: 27px;
+    color: black;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-left: 5px;
+    margin-top: -26px;
+}
+
+#pageContent .panel .panel-heading .addRate
+{
+    background-color: lightgreen;
+}
+
+#pageContent .panel .panel-heading .subRate
+{
+    background-color: hotpink;
+}
+
+#pageContent .panel .panel-heading .answerCom
+{
+    width: 100px;
+    background-color: dodgerblue;
+}
+
+#pageContent .panel .panel-heading .modify
+{
+    background-color: dodgerblue;
+}
+
+.panel-warning
+{
+    width: 80%;
+    left: 20%;
+    position: relative;
+}
+
+.panel-warning .panel-heading span
+{
+    right: 110px !important;
+}
+
+
+
+#pageContent .panel
+{
+    margin-bottom: 5px;
+}
+
+.subscribe
+{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 180px;
+    height: 160px;
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: none;
+    background-color: bisque;
+}
+
+.subscribe button
+{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border-radius: 4px;
+    border: 0 solid transparent;
+    background-color: transparent;
+}
+
+#pageContent h1.analitic
+{
+    text-align: center;
+    width: 100%;
+    color: darkred;
+}
+
+#pageContent a.bigA
+{
+    font-size: large;
+    font-weight: 900;
+    width: 100%;
+    position: relative;
+    margin-left: -50px;
+    left: 50%;
+}
+
+.searchPanel form label{
+    color: #faffbd;
+}
+
+.searchPanel form label:first-child{
+    margin-right: 50px;
+    color: #faffbd;
+}
+
+.searchPanel
+{
+    display: none;
+}
+
+.ui-autocomplete
+{
+    position: fixed;
+    top: 45px;
+    left: 15%;
+    z-index: 9999;
+}
+.answerFor
+{
+    display: none;
+}
+
+form.modifyForm
+{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    top: -30px;
+    display: none;
+}
+
+form.modifyForm input
+{
+    width: 85%;
+    display: inline-block;
+}
+
+form.modifyForm button
+{
+    width: 13%;
+    top: -2px;
+}
+
+
+
+.thumbnail:hover .caption span.price
+{
+    color: red;
+    font-size: large;
+    font-weight: 900;
+    transition: font-size 1.5s, font-weight 1.5s, color 1.5s linear;
+}
+
+.thumbnail .caption div.cupon
+{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    padding-top: 10px;
+    height: 100px;
+    text-align: center;
+    background-color: lightpink;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 25px;
+    transition: visibility 1.5s, opacity 1.5s linear;
+    margin-top: -180px;
+}
+.thumbnail:hover .caption div.cupon
+{
+    visibility: visible;
+    opacity: 1;
+}
+.addArticleLabel
+{
+    width: 80%;
+}
+
+.addArticleLabel textarea
+{
+    width: 50%;
+}
+.addArticleLabel select
+{
+    width: 50%;
+    display: inline-block;
+}
+
+input.adminFormArticle
+{
+    width: 50%;
+}
+
+#addButton
+{
+    position: relative;
+    left: 30%;
+}
+
+input#addCategoryInput {
+    width: 75%;
+    text-align: center;
+    margin-left: -12%;
+}
+
+#addCategoryButton {
+    margin-left: -12%;
+}
+
+#adminButton{
+    margin-right: 10px;
+}
+
+label.checkButtons{
+    position: relative;
+    float: right;
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    right: -10px;
+    box-shadow: 0 0 10px black;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+.forButton{
+    text-align: center;
+    width: 100%;
+}
+
+.commentForArticle{
+    padding-right: 40px;
+}
+body{
+    background: linear-gradient(to top, white, #fbdfdf);
+}
+
+#navcol
+{
+    background: linear-gradient(to bottom, black, #520303);
+}
+
+/* colorSelect */
+.picker-wrapper,
+.slide-wrapper {
+    position: relative;
+    float: left;
+}
+.picker-indicator,
+.slide-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.picker,
+.slide {
+    cursor: crosshair;
+    float: left;
+}
+
+/* ColorSelect */
+
+.cp-default {
+    background-color: gray;
+    padding: 12px;
+    box-shadow: 0 0 40px #000;
+    border-radius: 15px;
+    float: left;
+}
+.cp-default .picker {
+    width: 200px;
+    height: 200px;
+}
+.cp-default .slide {
+    width: 30px;
+    height: 200px;
+}
+.cp-default .slide-wrapper {
+    margin-left: 10px;
+}
+.cp-default .picker-indicator {
+    width: 5px;
+    height: 5px;
+    border: 2px solid darkblue;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    filter: alpha(opacity=50);
+    background-color: white;
+}
+.cp-default .slide-indicator {
+    width: 100%;
+    height: 10px;
+    left: -4px;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    filter: alpha(opacity=60);
+    border: 4px solid lightblue;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#color-picker{
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+}
+
+#colorButton{
+    position: relative;
+    margin-top: 10px;
+}
+
+#hidden{
+    display: none;
+}
+
+li#showH:hover #hidden {
+    display: block;
+}
